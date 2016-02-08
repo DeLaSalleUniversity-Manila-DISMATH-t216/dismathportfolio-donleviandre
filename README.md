@@ -3,11 +3,11 @@ dismathportfolio-donleviandre created by Classroom for GitHub
 
 #WEEK 1
 
-This week, during the first day we were introduced to a different kind of mathematics, discrete mathematics.
+*This week, during the first day we were introduced to a different kind of mathematics, discrete mathematics.
 
-We Were introduced to some terms in this course and that this course doesn''t use numbers rather it uses logic and proof.
+*We Were introduced to some terms in this course and that this course doesn''t use numbers rather it uses logic and proof.
 
-We try an exercise on proving, which was the "knight and the knave".
+*We try an exercise on proving, which was the "knight and the knave".
 
 The exercise basically prepared us to what we should expect on this course.
 
