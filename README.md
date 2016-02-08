@@ -33,7 +33,11 @@ The diffrent methods were: Direct proof, indirect proof, proof by contradiction,
 
 I understand the explanation of the methods, but for me the tricky part is when to use such method, and i think i need to study about this more.
 
+#WEEK 4
+
 This week we were also introduced to mathematical induction. it is a "mathematical proof technique, most commonly used to establish a given statement for all natural numbers, although it can be used to prove statements about any well-ordered set. It is a form of direct proof, and it is done in two steps. The first step, known as the base case, is to prove the given statement for the first natural number. The second step, known as the inductive step, is to prove that the given statement for any one natural number implies the given statement for the next natural number. From these two steps, mathematical induction is the rule from which we infer that the given statement is established for all natural numbers". -wikipedia
+
+We were also introduced with a new topic called recursive algorithm, it is defined as an algorithm that solves a problem by reducing it to an instance of the same problem with smaller input.
 
 It was also this week that we were refreshed to some topics like summation.
 
