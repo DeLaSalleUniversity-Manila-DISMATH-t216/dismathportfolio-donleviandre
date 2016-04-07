@@ -104,3 +104,16 @@ returned.
 
 * bubble sort has the concept that the bigger the number it will float higher like a bubble while insertion sort is placing in order and inserting the element into the already sorted part of the set.
 
+#WEEK 9
+
+* after last weeks discussion about searching lagorithms this week we were introduced to a new topic about sorting algorithms.
+
+* sorting algorithms are algorithms that sorts the given inputs by its value or sorting the ouputs by increasingly. It like alphabetizing words.
+
+* there are two main sorting algorithms introduced to us: bubble sort and insertion sort
+  - bubble sort is comparing one element to each of the other element. It is called bubble sort because it got its concept from bubbles; the larger bubble or the element with the largest value will float up and the least will remain at the bottom.
+  - insertion sort compares a new element to an initial element and if it is greater it will be placed after otherwise before.
+
+* This week we were also introduced with greedy algorithms.
+
+* Greedy algorithms 
