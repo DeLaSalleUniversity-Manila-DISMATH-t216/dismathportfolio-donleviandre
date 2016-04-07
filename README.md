@@ -116,4 +116,84 @@ returned.
 
 * This week we were also introduced with greedy algorithms.
 
-* Greedy algorithms 
+  - Greedy algorithms is a type of algorithm that gets the optimul output for a certain problem. This type of algorithm is commonly used on optimation problems like find the least number of coins for the payment. 
+
+#WEEK 10
+
+* This week we learned about the growth of functions.
+
+* growth of functions is a limit of a given function.
+
+* growth of a function can be described or approximated using:
+
+  - Big-O notation ( upper bound )
+  - Big-Omega noation ( lower bound )
+  - Big-Theta
+  
+* Big-O notation ( upper bound ): let f(x) and g(x) be functions; |f(x)| <= C|g(x)| whenever x>k
+
+* Big-Omega notation ( lower bound ): let f(x) and g(x) be functions; C|g(x)| <= |f(x)| whenverr x>k. 
+
+* Big-Theta notation ( both lower bound and upper bound ): let f(x) and g(x) be functions; C|g(x)| <= |f(x)| <= C|g(x)|
+
+* this week we were also introdiced about time complexities; time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the string representing the input. 
+  - it is also discussed in this topic the worst time complexity
+    - which is defined as the maximum amount of time taken on any input of size n.
+
+* Lastly we discussed about about division and modulo operator. which was used in cryptology or making the message hidden.
+
+#WEEK 11
+
+* NO CLASSES 
+
+#WEEK 12
+
+* Graph Theory was introduced this week. These are discrete structures consisting of vertices and edges that connect these vertices.
+
+* graphs(G) are represented by G={ (V,E) }; where {V} is a set consisting of vertices and {E} is a set consisting of edges
+
+* Degree of a vertex - this are the number of edges connected to a certain node or vertex.
+  - loops; a loop is sometime found on a vertex, it is counted twice or has a degree of 2
+
+* we were also introduced to the Handshaking Theorem, this used to count the number of edges in a graph.
+  - formula: 2e=summation(degrees)(number of vertex)
+
+* subgraph is a smaller graph that is a part taken from its original big graph.
+
+* There are also simple special graphs:
+  - complete graphs; is a simple graph that contains exactly one edge between each pair of vertices. it is represented by K.
+  - cyle; consist of n vertices that forms a cycle. it is represented by C.
+  - Wheels; it just like a cycle but there is an additional vertex that it placed on the middle and connects to every vertex on the cycle.
+
+* walk through a graph: path and a circuit.
+  - A path is a sequence of edges that begins at a vertex of a graph and travels from vertex to vertex along the edges of a graph.
+  - circuit is like a path but it goes back to the vertex where you started.
+  
+* Euler Circuit is a walk wherein it covers all edges exactly once and goes back to the vertex where it started; exists whenever every vertex in the graph has even degree.
+
+* Euler Path is a walk where all edges are covered once; exists whenever there are exactly two vertices with odd degree.
+
+* Hamilton Circuit a walk where all nodes are covered once a you return to the vertex where you started from.
+
+* Hamilton path is a walk where all nodes are covered once.
+
+* Pendant is a one degree node.
+
+* isolated node has a degree of zero and is disconnected from the graph
+
+* Adjacency Matrix - to put a graph into a matrix by identifying presence of an edge between vertices
+
+* Incidence Matrix - matrix between edges and vertices
+
+* Isomorphism equivalence between two graphs
+
+* Two graphs are isomorphic whenever:
+  - when the two graphs have equal number of edges.
+  - when the two graphs have equal number of vertices
+  - when the two graph have equal number of nodes having the same number of degrees per node
+
+* Planar graph is a graph where no edges intersect.
+
+* Euler Formula: r = e - v + 2, where r is the number of regions formed by a graph.
+
+* Kuratowski's Theorem states that a graph is non-planar if and only if it contains a homeomorphic subgraph that is k3,3 or k5.
