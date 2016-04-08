@@ -15,6 +15,8 @@ dismathportfolio-donleviandre created by Classroom for GitHub
 
 * After the explanation of the logical connectives, we were introduced to the truth table for Conjunction, Disjunction, Exclusive Disjunction, Conditional and Biconditional
 
+* we also have a reading assignment which was to read the 1st chapter in the book about proofs
+
 #WEEK 2
 
 * This week we were introduced to logical equivalences that can used in simplifying a proposition.
@@ -24,6 +26,8 @@ dismathportfolio-donleviandre created by Classroom for GitHub
 * After that we were introduced to rules of inference, namely: Modus ponens, Modus tollens, Hypothetical syllogism, Disjunctive syllogism, Addition, Simplication, Conjunction and Resolution	these are used to test the validty of the arguements given.
 
 * I also learned about Existential Quantifiers which is only true for some values and Universal Quantifiers which is always true for any possible values.
+
+* this week we also have a reading assignment nested quantifiers and rules of inference which is section 1.5 and 1.6 on the book.
 
 #WEEK 3
 
@@ -197,3 +201,57 @@ returned.
 * Euler Formula: r = e - v + 2, where r is the number of regions formed by a graph.
 
 * Kuratowski's Theorem states that a graph is non-planar if and only if it contains a homeomorphic subgraph that is k3,3 or k5.
+  - you can have a homeographic subgraph by using elementary subdivision on the main graph.
+  - elementary subdivision is a way of manipulating the main graph by eliminating an edge and place a new node on that edge. thus edge AB will be now be edge AC,CB adding a node C in between.
+  
+#WEEK 13
+
+* This week we are still on graphs, a new topic about graphs was introduced to us which is graph coloring.
+  - graph coloring is assigning a color to a node or vertex so that no adjacent nodes will have the same color.
+
+* in graph coloring there is a " 4 color theorem ". which states that if you have a planar graph the maximum number of colors you can have will only be 4.
+
+* number of colors for simple special graphs
+  - in a complete graph(K) ; the number of colors is the same as the number of nodes.
+  - in a cycle(C):
+    - if the nodes are odd there will be 3 colors 
+    - if the nodes are even there will be 2 colors
+  - in a wheel(W):
+    - if the nodes are odd there will be 4 colors
+    - if the nodes are even there will 3 colors
+
+* This week we also discussed abou trees.
+  - a tree is a connected undirected graph with no simple circuits
+  - it is a data structure that emulates a heirarchal tree structure with a set of linked nodes
+
+* rooted tree a tree in which one of the vertex has been designated as the root and every edge is directed away from the root.
+  - in a tree you can identify the:
+    - parent 
+    - children
+    - sibling
+    - ancestors 
+    - descendants
+    - internal vertices
+    - leaves
+
+* M-ary root tree
+  - a tree is m-ary if every internal vertex has no more than m children
+  - a tree is called a full m-ary tree if every internal vertex has the same number of children
+  - when m=2 it is called a binary tree.
+
+* ordered rooted tree if the chldren of each internal vertex is ordered
+
+* language and grammars were the last topic
+
+* in programming the syntax or the grammar is vital. Syntax is the form of a formal language. A derivation tree may be used to check validity of the grammar.
+
+* Automata theory studies the laws of computation.
+
+* Finite Automaton provides the simplest model of computing device, based on the concept of states.
+
+* Lexical analysis is the process where the stream of characters making up the source program is read from left to right and grouped into tokens.
+* Finite-state machine: M = {S, I, O, f, g, s(0)} with S-states, I-input, O-output, f-function, g-function output and s(0)-initial state.
+
+#WEEK 14 
+
+* FINALS WEEK
