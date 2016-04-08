@@ -1,6 +1,8 @@
 # dismathportfolio-donleviandre
 dismathportfolio-donleviandre created by Classroom for GitHub
 
+DIWARA, DON LEVI ANDRE - DISMATH EL
+
 #WEEK 1
 
 * This week, during the first day we were introduced to a different kind of mathematics, discrete mathematics.
@@ -255,3 +257,62 @@ returned.
 #WEEK 14 
 
 * FINALS WEEK
+
+#READING ASSIGNMENTS
+
+* tree traversal (also known as tree search) is a form of graph traversal and refers to the process of visiting (checking and/or updating) each node in a tree data structure, exactly once.Display the data part of the root (or current node).
+  -  These are the generally used ways for traversing trees:
+    - inorder
+      - 1. Traverse the left subtree by recursively calling the in-order function.
+      - 2. Display the data part of the root (or current node).
+      - 3. Traverse the right subtree by recursively calling the in-order function.
+    - preorder
+      - 1. Display the data part of the root (or current node).
+      - 2. Traverse the left subtree by recursively calling the pre-order function.
+      - 3. Traverse the right subtree by recursively calling the pre-order function.
+    - postorder
+      - 1. Traverse the left subtree by recursively calling the post-order function.
+      - 2. Traverse the right subtree by recursively calling the post-order function.
+      - 3. Display the data part of the root (or current node).
+
+* A spanning tree of the graph is a connected subgraph in which there are no cycles
+  - to find a spanning tree: pick an initial node and call it part of the spanning tree do a search from the initial node: each time you find a node that is not in the spanning tree, add to the spanning tree both the new node and the edge you followed to get to it
+
+* relations are relationship between two sets
+  - R ⊆ A × B. 
+  - If (a, b) ∈ R we say a is related to b by R.
+  - A is the domain of R, and B is the codomain of R.
+  - If A = B, R is called a binary relation on the set A.
+
+* A binary relation involves 2 sets and can be described by a set of pairs.
+
+* A ternary relation involves 3 sets and can be described by a set of triples.
+
+* An n-ary relation involves n sets and can be described by a set of n-tuples.
+
+* Representing a relation
+  - you can represent a relation by:
+    - ordered pairs
+    - table 
+    - graph
+    - mapping
+
+* Closure of relations
+  - Definition: The closure of a relation R with respect to property P is the relation obtained by adding the minimum number of ordered pairs to R to obtain property P.
+
+* In terms of the digraph representation of R
+  - To find the reflexive closure - add loops.
+  - To find the symmetric closure - add arcs in the opposite direction.
+  - To find the transitive closure - if there is a path from ato b, add an arc from ato b.
+
+* Equivalence of relations
+  - Equivalence relation on a set S: A relation on S that satisfies the following properties:
+    - Reflexive: Forallx∈S,x∼x.
+    - Symmetric: Forallx,y∈S,x∼yimpliesy∼x.
+    - Transitive: For all x,y,z ∈ S, x ∼ y and y ∼ z implies x ∼ z.
+
+*  Partial orderings
+  - A relation R on a set S is called a partial order if it is reflexive, antisymmetric and transitive. A set S together with a partial ordering R is called a partially ordered set or poset for short and is denoted (S, R).
+  - We use the notation to indicate that (a, b) ∈ R is a partial order and a≺b; when a ̸= b. The notation ≺ is not to be mistaken for “less than equal to.” Rather, ≺ is used to denote any partial ordering.
+
+Diwara, Don Levi Andre DISMATH - EL
